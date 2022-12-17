@@ -1,0 +1,77 @@
+.top_container {
+    display: flex;
+}
+
+.bottom {
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    color: white;
+    font-size: 48px;
+    display: flex;
+}
+
+#texty {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    color: white;
+    order: 1;
+}
+
+.top_one {    
+    display: flex;
+    background-color: #1F2937;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.top_pic {
+    justify-content: flex-end;
+    background-color: #1F2937;
+    padding-block: 3%;
+
+}
+
+.second_container {
+    display: grid;
+    background-color: white;
+    padding: 5%;
+}
+
+.second_img {
+    flex-direction: row;
+}
+
+.third {
+    display: flex;
+    background-color: gray;
+    font-size: 36px;
+    align-content: center;
+    padding: 10%;
+}
+
+.bottom {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.footing {
+    display: flex;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    justify-self: flex-end;
+}
+
+#unbutton {
+    max-width: 100px;
+}
