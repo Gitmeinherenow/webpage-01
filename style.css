@@ -1,35 +1,37 @@
 .top_container {
     display: flex;
+    background-color: #1F2937;
+    padding: 5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.top_container img {
+    flex: none;
+    max-width: 300px;
+    object-fit: cover;
 }
 
 .bottom {
     font-size: 24px;
     color: black;
-    display: flex;
+    
     justify-content: space-between;
 }
 
 #title {
     color: white;
     font-size: 48px;
-    display: flex;
+    
 }
 
 #texty {
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
+    
     color: white;
     order: 1;
-}
-
-.top_one {    
-    display: flex;
-    background-color: #1F2937;
-    padding: 5%;
-    flex-direction: column;
-    justify-content: flex-start;
-
 }
 
 .top_pic {
@@ -40,17 +42,46 @@
 }
 
 .second_container {
-    display: grid;
-    background-color: white;
-    padding: 5%;
+    display: flex;
 }
 
-.second_img {
+
+
+.second_container > div {
+    flex: 1;
     flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4%;
+
 }
+
+.cont_two_title h2 {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
+.second_container p {
+    display: flex;
+}
+
+
+.second_container img {
+    max-width: 100px;
+    max-height: auto;
+}
+
 
 .third {
-    display: flex;
+    
     background-color: gray;
     font-size: 36px;
     align-content: center;
@@ -58,12 +89,22 @@
 }
 
 .bottom {
+    
+    background-color: blue;
+    border: 30px solid whitesmoke;
+    align-items: flex-start;
+    padding: 2%;
     display: flex;
-    background-color: whitesmoke;
+    justify-content: baseline;
+    color: white;
+    
 }
 
 .footing {
+    flex-wrap: wrap;
     display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 img {
@@ -73,5 +114,44 @@ img {
 }
 
 #unbutton {
-    max-width: 100px;
+    max-width: 150px;
+    align-self: center;
+    display: flex;
+    padding: 2%;
+    
+}
+
+.heading {
+    color: white;
+    background-color: #1F2937;
+    justify-content: center;
+    display: flex;
+}
+
+.heading > div {
+    padding-inline-start: 200px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#one {
+    align-items: baseline;
+}
+
+#two {
+    align-items: baseline;
+}
+
+
+#three {
+    align-items: baseline;
+}
+
+#four {
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
 }
