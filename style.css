@@ -4,6 +4,7 @@
     padding: 5%;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 5px;
 
 }
 
@@ -13,12 +14,7 @@
     object-fit: cover;
 }
 
-.bottom {
-    font-size: 24px;
-    color: black;
-    
-    justify-content: space-between;
-}
+
 
 #title {
     color: white;
@@ -54,6 +50,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 4%;
+    text-align: left;
 
 }
 
@@ -77,6 +74,8 @@
 .second_container img {
     max-width: 100px;
     max-height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
 }
 
 
@@ -86,16 +85,18 @@
     font-size: 36px;
     align-content: center;
     padding: 10%;
+    border-radius: 5px;
 }
 
 .bottom {
     
-    background-color: blue;
-    border: 30px solid whitesmoke;
-    align-items: flex-start;
-    padding: 2%;
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
-    justify-content: baseline;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
     color: white;
     
 }
@@ -105,19 +106,29 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    border-radius: 5px;
 }
 
-img {
-    max-width: 300px;
-    max-height: 300px;
-    justify-self: flex-end;
-}
+
 
 #unbutton {
-    max-width: 150px;
-    align-self: center;
-    display: flex;
-    padding: 2%;
+   /* max-width: 150px;
+    justify-self: right;
+    display: block;
+    padding: 2%;*/
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
     
 }
 
@@ -136,6 +147,8 @@ img {
 
 #one {
     align-items: baseline;
+    
+
 }
 
 #two {
@@ -147,11 +160,19 @@ img {
     align-items: baseline;
 }
 
-#four {
-    align-items: flex-end;
-    justify-content: space-evenly;
-}
-
 a {
     color: white;
+}
+
+#rebutton {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    display: block;
+    justify-content: space-between;
+    margin-left: 350%;
 }
